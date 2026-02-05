@@ -31,7 +31,7 @@ systemctl restart ssh
 
 #adding user 
 useradd aku -M -s /bin/false
-echo "aku:aku" | chpasswd
+echo "majid:majid" | chpasswd
 #install udpgw
 echo "Installing UDPGW and service of udpgw.service"
    #!/bin/sh
